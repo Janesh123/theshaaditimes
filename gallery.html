@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inktop Home</title>
+	<link rel="stylesheet" type="text/css" href="styled.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="themes/1/js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="themes/1/js-image-slider.js" type="text/javascript"></script>
+    <link href="generic.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body style="background-image: url(https://www.kommand.me/img/pictures%20for%20websites.jpg);">
+<div class="container">
+  <span class="text1">Welcome to</span>
+  <span class="text2">Inktop Publishers</span>
+  
+</div>
+<img src="http://builderindia.in/images/inktop_logo.jpg" class="logo">
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<hr size="6" class="line">
+<br>
+<style>
+.mySlides {display:none;}
+body{
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+<body>
+
+<h2 class="w3-center" style="color: white"><b>Our Gallery</b></h2>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="AD_1.jpg" style="width:100%" >
+  <img class="mySlides" src="AD_Confused_1.jpg" style="width:100%">
+  <img class="mySlides" src="AD_Def_1.jpg" style="width:100%">
+  <img class="mySlides" src="AD_FindingThe_Bride_1.jpg" style="width:100%">
+  <img class="mySlides" src="AD_FindingThe_Bride_2.jpg" style="width:100%">
+  <img class="mySlides" src="AD_FindingThe_Groom_1.jpg" style="width:100%">
+  <img class="mySlides" src="AD_FindingThe_Groom_2.jpg" style="width:100%">
+  <img class="mySlides" src="AD_HideNSeek.jpg" style="width:100%">
+  <img class="mySlides" src="AD_FindingThe_Bride_2.jpg" style="width:100%">
+  <img class="mySlides" src="AD_ListNFound_1.jpg" style="width:100%">
+  <img class="mySlides" src="AD_Maaira_1.jpg" style="width:100%">
+  <img class="mySlides" src="AD_Quote_1.jpg" style="width:100%">
+  <img class="mySlides" src="AD_SayYes_1.jpg" style="width:100%">
+  <img class="mySlides" src="AD_Scroll_1.jpg" style="width:100%">
+  <img class="mySlides" src="AD_TMBW_1.jpg" style="width:100%">
+  <img class="mySlides" src="AD_TOP_Fruit_1.jpg" style="width:100%">
+  <img class="mySlides" src="AD_TOP_Fruit_2.jpg" style="width:100%">
+  <img class="mySlides" src="AD_Transparent_1.jpg" style="width:100%">
+  <img class="mySlides" src="AD_tYPO_1.jpg" style="width:100%">
+  <img class="mySlides" src="AD_Typo_2.jpg" style="width:100%">
+  <img class="mySlides" src="AD_Typo_3.jpg" style="width:100%">
+  <img class="mySlides" src="AD_Typo_4.jpg" style="width:100%">
+  <img class="mySlides" src="AD_Where_1.jpg" style="width:100%">
+  <img class="mySlides" src="AD_Wifi_1.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
